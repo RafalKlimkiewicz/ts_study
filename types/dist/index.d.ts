@@ -1,4 +1,12 @@
-declare function calculateTax(amount: number): number;
+declare function calculateTax(amount: any): any;
 declare let price: number;
-declare let taxAmout: number;
+declare let taxAmout: any;
 declare let halfShare: number;
+declare function calculateTax2(amount: number, format: boolean): number | string;
+declare let taxNumber: string | number;
+declare let taxString: string | number;
+declare let taxNumberTa: number;
+declare let taxStringTa: string;
+declare let taxStringTa2: string;
+declare let taxBooleanTa: boolean;
+declare let taxValue: string | number;

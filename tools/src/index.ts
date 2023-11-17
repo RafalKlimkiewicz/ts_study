@@ -7,7 +7,7 @@ function printMessage(msg: string) : void{
 //js: npx tsc-watch --onsuccess \"node ./dist/index.js\"
 let message = `Witaj, TypeScript`;
 printMessage(message);
-debugger; //eslint-disable-line no-debugger
+debugger; //eslint-disable-line no-debugger   "sourceMap" : "true" tsconfig.json
 
 let total = sum(100,100,200);
 console.log(`warotść całkowita: ${total}`);
